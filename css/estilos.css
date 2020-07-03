@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "open sans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+header {
+    background: url(../img/bg.jpg), #019851;
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+header .contenedor_logo_menu {
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+    color: #fff;
+}
+header .contenedor_logo_menu .logo a{
+    display: block;
+}
+#logo-img {
+    border-radius: 50%;
+    vertical-align: top;
+}
+header .contenedor_logo_menu .menu {
+    text-align: right;
+    line-height: 50px;
+}
+header .contenedor_logo_menu .menu a {
+    color: #fff;
+    margin-left: 60px;
+    font-size: 18px;
+}
+header .textos {
+    color: #fff;
+    text-align: center;
+    margin: 100px 0;
+}
+header .textos .primera-linea {
+    font-size: 35px;
+    list-style: 35px;
+    margin-bottom: 30px;
+    font-family: "open sans", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    mix-blend-mode: overlay;
+}
+header .textos .segunda-linea {
+    font-size: 25px;
+    list-style: 25px;
+    margin-bottom: 60px;
+    font-family: "open sans", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+header .textos .contenedor-btn a{
+    border-radius: 4px;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 12px 0;
+    font-weight: 600;
+    width: 235px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+    margin-bottom: 100px;
+}
+header .textos .contenedor-btn a:hover{
+    text-decoration: none;
+    background: #fff;
+    color: #4f4f4f;
+}
+.main .caracteristicas {
+    margin-bottom: 70px;
+}
+.main .caracteristicas .titulo {
+    text-align: center;
+    font-family: "open sans", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 70px;
+}
+.main .caracteristicas .caracteristica {
+    text-align: center;
+}
+.main .caracteristicas .caracteristica .icono {
+    vertical-align: top;
+    margin-bottom: 30px;
+}
+.main .caracteristicas .caracteristica .primera-linea {
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.main .fotos {
+    margin-bottom: 70px;
+}
+.main .fotos .foto {
+    margin-bottom: 20px;
+}
+.main .fotos .foto .thumb img {
+    border-radius: 3px;
+    width: 100%;
+    vertical-align: top;
+}
+.main .fotos .foto .titulo {
+    margin-top:70px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 300;
+}
+#titulo-azul {
+    color: #4facd3;
+}
+#titulo-naranja {
+    color: #ddb146;
+}
+.main .fotos .foto .derecha {
+    text-align: right;
+}
+.main .clientes {
+    background: #2d353e;
+    padding: 40px 0;
+}
+.main .clientes .titulo {
+    text-align: center;
+    font-family: "open sans", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.main .clientes .cliente {
+    text-align: center;
+}
+.main .clientes .clientes a{
+    display: block;
+}
+.main .precios {
+    background: url(../img/precios-bg.jpg), #727171;
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+}
+.main .precios .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 70px;
+}
+.main .precios .plan {
+    background: #fff;
+    text-align: center;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    padding: 50px 0;
+    -webkit-box-boxshadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
+}
+.main .precios .plan .nombre {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.main .precios .plan .precio {
+    font-weight: 300;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+.main .precios .plan .caracteristicas {
+    list-style: none;
+    padding: o 20px;
+    margin-bottom: 50px;
+}
+.main .precios .plan .caracteristicas li {
+    font-size: 18px;
+    padding: 15px 0;
+    border-bottom: 1px solid #dedede;
+}
+.main .precios .plan .btn {
+    width: 70%;
+    font-size: 16px;
+    padding: 15px o;
+    text-align: center;
+    display: inline-block;
+    border-radius: 100px;
+}
+.main .precios .verde{
+    color: #86b773;
+}
+.main .precios .verde .btn {
+    color: #86b773;
+    border: 2px solid #86b773;
+}
+.main .precios .verde .btn:hover {
+    background: #86b773;
+    color: #fff;
+}
+.main .precios .active {
+    background: #4c8dce;
+    color: #fff;
+}
+.main .precios .active .btn {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.main .precios .active .btn:hover {
+    background: #ffffff;
+    color:#4c8dce;
+}
+.main .precios .naranja {
+    background: #ffffff;
+    color: #ddb146;
+}
+.main .precios .naranja .btn {
+    color: #ddb146;
+    border: 2px solid #ddb146;
+}
+.main .precios .naranja .btn:hover {
+    background: #ddb146;
+    color:#fff;
+}
+.main .reviews {
+    padding: 70px;
+}
+.main .reviews .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #4facd3;
+    margin-bottom: 70px;
+}
+.main .reviews .cliente {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.main .reviews .cliente .foto {
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+.main .reviews .cliente .foto img {
+    max-width: 100px;
+    width: 100%;
+    vertical-align: top;
+    border-radius: 100%;
+}
+.main .reviews .cliente .review {
+    float: left;
+    width: 80%;
+    padding: 0 30px;
+    margin-top: 20px;
+}
+.main .reviews .cliente .review .texto {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.main .reviews .cliente .review .nombre {
+    color: #ddb146;
+    font-style: 14px;
+}
+.main .reviews .derecha .foto {
+    float: right;
+    text-align: left;
+}
+.main .reviews .derecha .review {
+    float: right;
+    text-align: right;
+}
+footer .direccion {
+    background: #3c4045;
+    padding: 30px 0;
+    color: #fff;
+}
+footer .direccion .titulo {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+footer .direccion .calle, .correo {
+    margin-bottom: 10px;
+}
+footer .direccion .logo img {
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+footer .social {
+    text-align: center;
+    padding: 20px 0;
+}
+footer .social a {
+    padding: 10px;
+    display: inline-block;
+    margin: 0 20px;
+    width: 50px;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 100%;
+}
+footer .social a:hover {
+    text-decoration: none;
+}
+footer .social .facebook {
+    background: #3b5998;
+}
+footer .social .twitter {
+    background: #55acee;
+}
+footer .social .youtube {
+    background: #cd201f;
+}
